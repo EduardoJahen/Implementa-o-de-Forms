@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="apresentação">
+        <h1>Implementação de Formulario em HTML</h1>
+    </div>
+
+    <form>
+        <div class="modeloDoVeiculo">
+            <label for="Modelo">Modelo:</label>
+            <input type="text" name="modelo" id="Modelo" placeholder="Ex: HB20">
+        </div>
+        <br>
+        <div class="marcaDoVeiculo">
+            <label for="Marca">Marca:</label>
+            <input type="text" name="marca" id="Marca" placeholder="Ex: Hyundai ">
+        </div>
+        <br>
+        <div class="anoDoVeiculo">
+            <label for="ano">Ano:</label>
+            <input type="text" name="anoDoVeiculo" id="ano" placeholder="Ex: 2013">
+        </div>
+        <br>
+        <div class="quilometragemDoVeiculo">
+            <label for="quilometragem">Quilometragem:</label>
+            <input type="text" name="quilometragemDoVeiculo" id="quilometragem" placeholder="Ex: 80.000 Km">
+        </div>
+        <br>
+        <div class="valorDoVeiculo">
+            <label for="valor">Valor:</label>
+            <input type="text" name="valorDoVeiculo" id="valor" placeholder="Ex: R$45.500,00 ">
+        </div>
+        <br>
+        <div class="estadoDoCarro">
+            <label for="novoOuUsado">Carro:</label>
+            <input type="radio" name="novoOuUsado" id="novoOuUsado" value="Novo"> Novo
+            <input type="radio" name="novoOuUsado" id="novoOuUsado" value="Usado"> Usado
+        </div>
+        <br>
+        <div class="adicionais">
+            <label for="adicionais">Adicionais do veiculo:</label> <br>
+            <label for="airbag">Airbag</label>
+            <input type="checkbox" name="airbag" id="airbag"> <br>
+            <label for="alarme">Alarme</label>
+            <input type="checkbox" name="alarme" id="alarme"> <br>
+            <label for="arCondicionado">Ar Con.</label>
+            <input type="checkbox" name="arCondicionado" id="arCondicionado">
+
+        </div>
+        <br>
+        <div class="finalPlaca">
+            <label for="finalDaPlaca">Qual o final da Placa:</label>
+            <select name="finalDaPlaca" id="finalDaPlaca">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            
+        </div>
+        <br>
+        <div class="enviar">
+            <input type="submit" value="Enviar Formulario">
+        </div>
+    </form>
+
+</body>
+
+</html>
